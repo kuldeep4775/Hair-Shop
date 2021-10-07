@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book_it">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navibar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/rounded"
+        app:itemIconTint="@color/color"
+        app:menu="@menu/menu"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="10mm"
+        android:fontFamily="@font/arizonia"
+        android:shadowColor="@android:color/background_light"
+        android:text="Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="70sp" />
+
+    <EditText
+        android:id="@+id/FN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30mm"
+        android:backgroundTint="@color/colorWhite"
+        android:ems="10"
+        android:hint="Full_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/MN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40mm"
+        android:backgroundTint="@color/colorWhite"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50mm"
+        android:backgroundTint="@color/colorWhite"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32mm"
+        android:layout_marginLeft="8mm"
+        app:srcCompat="@drawable/male" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="42mm"
+        android:layout_marginLeft="8mm"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="52mm"
+        android:layout_marginLeft="8mm"
+        app:srcCompat="@drawable/att" />
+
+    <Spinner
+        android:layout_width="30mm"
+        android:layout_height="10mm"
+        android:layout_marginTop="60mm"
+        android:layout_marginLeft="15mm"
+        android:id="@+id/tm"
+        android:entries="@array/Time"></Spinner>
+
+    <ImageView
+        android:layout_width="4mm"
+        android:layout_height="4mm"
+        android:layout_marginTop="63mm"
+        android:layout_marginLeft="8mm"
+        android:id="@+id/time"
+        android:src="@drawable/time"/>
+
+    <Spinner
+        android:layout_width="30mm"
+        android:layout_height="10mm"
+        android:layout_marginTop="70mm"
+        android:layout_marginLeft="15mm"
+        android:id="@+id/selection"
+        android:entries="@array/select"></Spinner>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85mm"
+        android:layout_width="210dp"
+        android:text="Next"
+        android:background="#fff"
+        android:textColor="#FFBC1A"
+        android:shadowColor="@color/cardview_light_background"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="6mm"
+        android:layout_height="6mm"
+        android:layout_marginTop="73mm"
+        android:layout_marginLeft="8mm"
+        app:srcCompat="@drawable/barbers" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">hair shop</string>
+    <string name="title_activity_bottom">bottom</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="menu_barbers">Barbers</string>
+    <string name="menu_Book">Book it</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_more">More</string>
+
+    <array name="Time">
+        <item>8AM To 2PM</item>
+        <item>4PM To 8PM</item>
+    </array>
+
+    <array name="select">
+        <item>Saving</item>
+        <item>Hair Cut</item>
+    </array>
+</resources>

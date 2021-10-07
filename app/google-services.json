@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402930045359",
+    "project_id": "hair-shop-c76ef",
+    "storage_bucket": "hair-shop-c76ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402930045359:android:035bba59d09151919fdf5a",
+        "android_client_info": {
+          "package_name": "com.example.hairshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402930045359-1bmfdhgbgjgmcbgnfva5nlveonllvej1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw7D2axPbs4BdtUl_L-eG2UAgl3EESaeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402930045359-1bmfdhgbgjgmcbgnfva5nlveonllvej1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="900dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="304dp"
+            android:layout_height="252dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="1dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="42mm"
+            android:fontFamily="@font/arizonia"
+            android:shadowColor="@android:color/background_light"
+            android:text="Sign In"
+            android:textColor="@android:color/white"
+            android:textSize="70sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="60mm"
+            android:layout_marginLeft="10mm"
+            app:srcCompat="@drawable/att" />
+
+        <EditText
+            android:id="@+id/EA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17mm"
+            android:layout_marginTop="58mm"
+            android:backgroundTint="@color/colorWhite"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10mm"
+            android:layout_marginTop="70mm"
+            app:srcCompat="@drawable/key" />
+
+        <EditText
+            android:id="@+id/Pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17mm"
+            android:layout_marginTop="68mm"
+            android:backgroundTint="@color/colorWhite"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="77mm"
+            android:layout_width="210dp"
+            android:text="Sign In"
+            android:background="#fff"
+            android:textColor="#FFBC1A"
+            android:shadowColor="@color/cardview_light_background"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15mm"
+            android:layout_marginTop="90mm"
+            android:text="Don't have an account? "
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42mm"
+            android:textColor="#0047b3"
+            android:clickable="true"
+            android:onClick="signUp"
+            android:layout_marginTop="90mm"
+            android:text="Sign Up."
+            android:textSize="15dp" />
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="95mm" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
